@@ -52,12 +52,12 @@ public class ShooterSub extends SubsystemBase {
 
     // initiaize the talon fx
     /* newer config API */
-			TalonFXConfiguration configs = new TalonFXConfiguration();
-			/* select integ-sensor for PID0 (it doesn't matter if PID is actually used) */
-			//configs.primaryPID.selectedFeedbackSensor = FeedbackDevice.IntegratedSensor;
-			/* config all the settings */
-      upperMotor.configAllSettings(configs);
-      lowerMotor.configAllSettings(configs);
+		TalonFXConfiguration configs = new TalonFXConfiguration();
+		/* select integ-sensor for PID0 (it doesn't matter if PID is actually used) */
+		//configs.primaryPID.selectedFeedbackSensor = FeedbackDevice.IntegratedSensor;
+		/* config all the settings */
+    upperMotor.configAllSettings(configs);
+    lowerMotor.configAllSettings(configs);
   }
 
   @Override
